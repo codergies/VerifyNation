@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>VerifyNation</id>
+    <version>$version$</version>
+    <title>TcknValidator</title>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>$packageProjectUrl$</projectUrl>
+    <iconUrl>$packageIcon$</iconUrl>
+    <description>$description$</description>
+    <releaseNotes>$packageReleaseNotes$</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>$packageTags$</tags>
+    <repository type="git" url="$repositoryUrl$" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.0-preview.4.24156.10" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="README.md" target="" />
+    <file src="bin\$configuration$\net9.0\$id$.dll" target="lib\net9.0" />
+    <file src="bin\$configuration$\net9.0\$id$.pdb" target="lib\net9.0" />
+    <file src="bin\$configuration$\net9.0\$id$.xml" target="lib\net9.0" />
+  </files>
+</package>

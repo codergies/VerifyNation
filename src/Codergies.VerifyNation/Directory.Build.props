@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <Copyright>Copyright © $(Authors) $([System.DateTime]::Now.Year)</Copyright>
+    <NeutralLanguage>tr-TR</NeutralLanguage>
+    <PackageReleaseNotes>
+      - İlk sürüm
+      - .NET 9.0 desteği
+      - TCKN doğrulama algoritması
+      - Genişletilebilir validasyon altyapısı
+      - Dependency Injection entegrasyonu
+    </PackageReleaseNotes>
+    <MinVerDefaultPreReleaseIdentifiers>preview</MinVerDefaultPreReleaseIdentifiers>
+  </PropertyGroup>
+
+  <!-- Source Link ve Package -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+</Project>
