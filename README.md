@@ -2,8 +2,8 @@
 
 Republic of Turkey Identity Number (TCKN) is a lightweight and extensible .NET library developed to perform authentication.
 
-[![NuGet](https://img.shields.io/nuget/v/VerifyNation.svg)](https://www.nuget.org/packages/VerifyNation/)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/VerifyNation.svg)](https://www.nuget.org/packages/VerifyNation/)
+[![NuGet](https://img.shields.io/nuget/v/Codergies.VerifyNation.svg)](https://www.nuget.org/packages/Codergies.VerifyNation/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Codergies.VerifyNation.svg)](https://www.nuget.org/packages/Codergies.VerifyNation/)
 
 ## Features
 
