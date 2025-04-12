@@ -3,12 +3,13 @@
     <Copyright>Copyright © $(Authors) $([System.DateTime]::Now.Year)</Copyright>
     <NeutralLanguage>tr-TR</NeutralLanguage>
     <PackageReleaseNotes>
-      - İlk sürüm
-      - .NET 9.0 desteği
-      - TCKN doğrulama algoritması
-      - Genişletilebilir validasyon altyapısı
-      - Dependency Injection entegrasyonu
-    </PackageReleaseNotes>
+		- TCKN standard algorithmic validation
+		- TCKN length and first digit check
+		- Extensible validation rules
+		- .NET 9.0+ support
+		- Easy integration with Dependency Injection
+		- Full unit test coverage
+	</PackageReleaseNotes>
     <MinVerDefaultPreReleaseIdentifiers>preview</MinVerDefaultPreReleaseIdentifiers>
   </PropertyGroup>
 
